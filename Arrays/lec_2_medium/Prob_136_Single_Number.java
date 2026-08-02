@@ -1,4 +1,4 @@
-package Arrays.lec_1_easy;
+package Arrays.lec_2_medium;
 
 public class Prob_136_Single_Number {
     public int singleNumber(int[] nums){
