@@ -1,4 +1,4 @@
-package Arrays.lec_2_medium;
+package Arrays.lec_3_hard;
 
 import java.util.ArrayList;
 import java.util.List;
