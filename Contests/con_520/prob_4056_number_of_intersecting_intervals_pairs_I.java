@@ -1,6 +1,4 @@
-package Contests.con_520;
-
-public class number_of_intersecting_intervals_pairs_I{
+public class prob_4056_number_of_intersecting_intervals_pairs_I{
     public int countIntersectingIntervals(int[][] intervals) {
         int count = 0;
         int n = intervals.length;
@@ -17,7 +15,7 @@ public class number_of_intersecting_intervals_pairs_I{
     }
 
     public static void main(String[] args) {
-        number_of_intersecting_intervals_pairs_I solution = new number_of_intersecting_intervals_pairs_I();
+        prob_4056_number_of_intersecting_intervals_pairs_I solution = new prob_4056_number_of_intersecting_intervals_pairs_I();
         int[][] intervals = {{1, 3}, {2, 4}, {5, 6}, {7, 8}};
         int result = solution.countIntersectingIntervals(intervals);
         System.out.println("Number of intersecting interval pairs: " + result);
