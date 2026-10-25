@@ -15,7 +15,7 @@ public class Prob_1721_swapping_nodes_in_a_linked_list {
         ListNode last = head;
 
         int i=1;
-
+        
         while(temp != null){
             if(i == k){
                 first = temp;
