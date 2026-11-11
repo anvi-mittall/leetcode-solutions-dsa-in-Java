@@ -3,7 +3,7 @@ package Linked_List.Hard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class merge_k_sorted_lists {
+public class prob_23_merge_k_sorted_lists {
     public class ListNode {
         int val;
         ListNode next;
@@ -52,7 +52,7 @@ public class merge_k_sorted_lists {
     }
 
     public static void main(String[] args) {
-        merge_k_sorted_lists solution = new merge_k_sorted_lists();
+        prob_23_merge_k_sorted_lists solution = new prob_23_merge_k_sorted_lists();
 
         // Create sample linked lists
         ListNode l1 = solution.new ListNode(1);
